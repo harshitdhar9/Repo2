@@ -1,0 +1,22 @@
+.Header{
+  background-color: rgba(244, 211, 67, 0.772);
+  color: black;
+  text-align: center;
+  padding: 25px;
+  margin: inline 2px;
+}
+.Footer{
+  bottom: 0px;
+  background-color: burlywood;
+  text-align: center;
+  padding:20px;
+  color:black;
+  width: 50%;
+}
+.List{
+  list-style-type: square;
+  padding: 10px;
+  display: inline-block;
+  text-decoration: wavy;
+  align-self: center;
+}
