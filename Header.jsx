@@ -1,16 +1,17 @@
 function Header(){
     return(
-        <Header>
-        <h2>Fruitify</h2>
-        <h3 className="Title">Website for Fruits</h3>
-        <nav>
-            <ul>
-                <li className="List">Home<a href="#"></a></li>
-                <li className="List">Types<a href="#"></a></li>
-                <li className="List">Origin<a href="#"></a></li>
-            </ul>
-        </nav>
-        </Header>
+        <header>
+            <h1>My Website</h1>
+            <nav>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <hr></hr>
+        </header>
     );
 }
 export default Header
