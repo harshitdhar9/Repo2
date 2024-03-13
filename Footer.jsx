@@ -1,7 +1,7 @@
 function Footer(){
     return(
-        <footer className="Footer">
-            <p>&copy; {new Date().getFullYear()} Fruitify fruit@gmail.com</p>
+        <footer>
+            <p>&copy; {new Date().getFullYear()} Your Website Name</p>
         </footer>
     );
 }
